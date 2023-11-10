@@ -5,7 +5,7 @@ from langchain.utilities import SQLDatabase
 from langchain.chat_models import ChatOpenAI
 from langchain_experimental.sql import SQLDatabaseChain
 
-OPENAI_API_KEY="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"
+OPENAI_API_KEY=
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///example.db"
